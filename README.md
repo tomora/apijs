@@ -4,4 +4,4 @@ For more information, go to https://www.luigifab.fr/apijs and https://www.luigif
 
 This repository is a mirror. To install the module, please use the extension key available in the documentation. If you like, take some of your time to improve the translations, go to https://bit.ly/2HyCCEc.
 
-Version 1.0.0 released on 08/08/2010 (repacked and reminified on 02/01/2020).
+Version 1.0.1 released on 13/08/2010 (repacked and reminified on 16/02/2020).
