@@ -1,10 +1,10 @@
 <?php
 /**
  * Created M/15/01/2013
- * Updated V/21/03/2014
- * Version 5
+ * Updated S/25/10/2014
+ * Version 7
  *
- * Copyright 2013-2014 | Fabrice Creuzot (luigifab) <code~luigifab~info>
+ * Copyright 2008-2014 | Fabrice Creuzot (luigifab) <code~luigifab~info>
  * https://redmine.luigifab.info/projects/magento/wiki/apijs
  *
  * This program is free software, you can redistribute it or modify
@@ -18,6 +18,7 @@
  * GNU General Public License (GPL) for more details.
  */
 
+$number = 0;
 $product = $this->getProduct();
 $class = (Mage::getStoreConfig('apijs/gallery/hoverload') === '1') ? 'gallery hoverload' : 'gallery';
 ?>
@@ -28,7 +29,7 @@ $class = (Mage::getStoreConfig('apijs/gallery/hoverload') === '1') ? 'gallery ho
 		<?php if (count($this->getGalleryImages()) > 1): ?>
 			<ul>
 				<?php foreach ($this->getGalleryImages() as $image): ?>
-					<li><?php echo $this->getThumbnail($image, $image->getLabel()) ?></li>
+					<li><?php echo $this->getThumbnail($image, $number++) ?></li>
 				<?php endforeach ?>
 			</ul>
 		<?php endif ?>
