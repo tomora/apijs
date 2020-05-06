@@ -6,7 +6,7 @@ For more information, go to https://www.luigifab.fr/apijs or https://www.luigifa
 
 This repository is a mirror. To install the app, the module or the plugin, please read the documentation.
 
-- Current version: 6.0.1 (13/03/2020) - 6.0.1-magento (13/03/2020) - 6.0.1-redmine (13/03/2020)
+- Current version: 6.1.0 (05/05/2020) - 6.1.0-magento (05/05/2020) - 6.1.0-redmine (05/05/2020)
 - Magento compatibility: Openmage 1.9 - Magento Community 1.9 - PHP 7.2 / 7.3 / 7.4
 - Redmine compatibility: Redmine 1.4 / 2.0 / 2.1 / 2.2 / 2.3 / 2.4 / 2.5 / 2.6 / 3.0 / 3.1 / 3.2 / 3.3 / 3.4 / 4.0 / 4.1 / 4.2
 - Client compatibility: Firefox 27+, Chrome 29+, Opera 17+, Edge 14+, Safari 9+
